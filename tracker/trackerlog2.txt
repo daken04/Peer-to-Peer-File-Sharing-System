@@ -1,7 +1,0 @@
-Tracker 1 Address : :0
-Tracker 2 Address : 127.0.0.1:6000
-Log file name : trackerlog2.txt
-
-Tracker socket created.
-Binding completed.
-Listening...

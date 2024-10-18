@@ -1,0 +1,10 @@
+Peer Address : 127.0.0.2:18001
+Tracker 1 Address : 127.0.0.1:5000
+Tracker 2 Address : 127.0.0.1:6000
+Log file name : 127.0.0.2:18001_log.txt
+
+Peer socket created
+
+18001 will start running as server
+ Server socket created.
+connected to server 5000

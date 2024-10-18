@@ -1,0 +1,21 @@
+Peer Address : 127.0.0.1:18000
+Tracker 1 Address : 127.0.0.1:5000
+Tracker 2 Address : 127.0.0.1:6000
+Log file name : 127.0.0.1:18000_log.txt
+
+Peer socket created
+
+18000 will start running as server
+ Server socket created.
+ Binding completed.
+Listening...
+
+connected to server 5000
+sent to server: create_user
+primary server response: Account created
+sent to server: login
+primary server response: Login Successful
+sent to server: create_group
+primary server response: Group created
+sent to server: join_group
+primary server response: Group request sent

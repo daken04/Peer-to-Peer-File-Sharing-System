@@ -1,4 +1,10 @@
-# Peer-to-Peer File Sharing System
+# Bit Torrent : Peer-to-Peer Group Based File Sharing System
+
+- The Bit-torrent project is basically a peer-to-peer file sharing network. The user
+has functionalities like sharing a file, downloading a file, removing a file from
+sharing etc. It is basically like the Bit-Torrent we have on the internet.
+- The architecture is such that there are multiple clients(users) and a tracker which stores the
+metadata of which all users have a file, basically a file-user mapping.
 
 ## Prerequisites
 
@@ -16,9 +22,9 @@
 
 ```
 1. cd client
-2. g++ -o client client.cpp -lssl -lcrypto
+2. make
 3. cd ../tracker
-5. g++ -o tracker tracker.cpp
+5. make
 6. cd ..
 ```
 
@@ -39,9 +45,9 @@ ex: ./tracker tracker_info.txt 1
 ```
 Ex:
 127.0.0.1
-4000
-127.0.0.2
 5000
+127.0.0.1
+6000
 ```
 
 2. Close Tracker:

@@ -1,0 +1,22 @@
+Tracker 1 Address : 127.0.0.1:5000
+Tracker 2 Address : :0
+Log file name : trackerlog1.txt
+
+Tracker socket created.
+Binding completed.
+Listening...
+Connection Accepted
+***********pthread started for client socket number 4
+Connection Accepted
+***********pthread started for client socket number 5
+***********pthread ended for client socket number 5
+Connection Accepted
+***********pthread started for client socket number 5
+client request:create_user a a
+client request:login a a 
+client request:create_user b b
+client request:login b b
+client request:create_group 1
+client request:create_group 2
+client request:join_group 2
+join_group function ..
